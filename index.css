@@ -97,6 +97,11 @@ a {
     left: 0;
 }
 
+.credentials:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
 .credentials__download-container {
     margin-left: 12px;
     display: flex;
