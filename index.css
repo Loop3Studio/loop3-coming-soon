@@ -4,6 +4,7 @@
 }
 
 body {
+    overflow: hidden;
     font-family: 'Roboto';
     background-color: #000000;
     color: white;
@@ -95,11 +96,11 @@ a {
     width: 100%;
     bottom: 20%;
     left: 0;
+    transition: all .2s ease-in-out;
 }
 
 .credentials:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+    transform: scale(1.03);
 }
 
 .credentials__download-container {
